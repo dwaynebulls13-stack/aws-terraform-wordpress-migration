@@ -1,0 +1,10 @@
+
+aws_region            = "us-east-2"
+instance_type         = "t3.micro"
+server_name           = "legacy-migration-ubuntu-server"
+key_name              = "YOUR_AWS_KEY_PAIR_NAME"
+ssh_allowed_cidr      = "203.0.113.10/32"
+network_acl_id        = "acl-xxxxxxxxxxxxxxxxx"
+http_port             = 80
+http_cidr             = "0.0.0.0/0"
+http_nacl_rule_number = 103
